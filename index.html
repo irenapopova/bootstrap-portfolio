@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Bootstrap v4 CDN -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
-        integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.0/css/bootstrap.min.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Nunito" rel="stylesheet">
     <!-- Font Awesomee -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <!-- Own Style -->
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.0/js/bootstrap.min.js"></script>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
     <title>Irena Popova || Web Developer</title>
 </head>
 
@@ -43,34 +45,39 @@
                         <p>Some of the technologies that I enjoy using are:</p>
 
                         <div class="list-group">
-                            <a href="#" class="list-group-item list-group-item-action active">Front-end:</a>
-                            <a href="#" class="list-group-item list-group-item-action">React.js</a>
-                            <a href="#" class="list-group-item list-group-item-action">Redux</a>
-                            <a href="#" class="list-group-item list-group-item-action">Firebase</a>
-                            <a href="#" class="list-group-item list-group-item-action">AJAX</a>
-                            <a href="#" class="list-group-item list-group-item-action">Sass</a>
-                            <a href="#" class="list-group-item list-group-item-action">Gulp</a>
-                            <a href="#" class="list-group-item list-group-item-action">Bootstrap</a>
-                            <a href="#" class="list-group-item list-group-item-action">MaterializeCSS</a>
-                            <a href="#" class="list-group-item list-group-item-action">HTML5</a>
-                            <a href="#" class="list-group-item list-group-item-action">CSS3</a>
+                            <a href="#frontend" data-toggle="collapse" class="list-group-item list-group-item-action active">Front-end <i class="glyphicon glyphicon-chevron-right float-right"></i></a>
+                            <div id="frontend" class="collapse">
+                                <a href="#" class="list-group-item list-group-item-action">React.js</a>
+                                <a href="#" class="list-group-item list-group-item-action">Redux</a>
+                                <a href="#" class="list-group-item list-group-item-action">Firebase</a>
+                                <a href="#" class="list-group-item list-group-item-action">AJAX</a>
+                                <a href="#" class="list-group-item list-group-item-action">Sass</a>
+                                <a href="#" class="list-group-item list-group-item-action">Gulp</a>
+                                <a href="#" class="list-group-item list-group-item-action">Bootstrap</a>
+                                <a href="#" class="list-group-item list-group-item-action">MaterializeCSS</a>
+                                <a href="#" class="list-group-item list-group-item-action">HTML5</a>
+                                <a href="#" class="list-group-item list-group-item-action">CSS3</a>
+                            </div>
                         </div>
                         <br />
                         <div class="list-group">
-                            <a href="#" class="list-group-item list-group-item-action active">Back-end:</a>
-                            <a href="#" class="list-group-item list-group-item-action">Node.js</a>
-                            <a href="#" class="list-group-item list-group-item-action">Express</a>
-                            <a href="#" class="list-group-item list-group-item-action">MongoDB (NoSQL database)</a>
-                            <a href="#" class="list-group-item list-group-item-action">Mongoose (ORM)</a>
-                            <a href="#" class="list-group-item list-group-item-action">MySQL (SQL database)</a>
+                            <a href="#backend" data-toggle="collapse"  class="list-group-item list-group-item-action active">Back-end <i class="glyphicon glyphicon-chevron-right float-right"></i></a>
+                            <div id="backend" class="collapse">
+                                <a href="#" class="list-group-item list-group-item-action">Node.js</a>
+                                <a href="#" class="list-group-item list-group-item-action">Express</a>
+                                <a href="#" class="list-group-item list-group-item-action">MongoDB (NoSQL database)</a>
+                                <a href="#" class="list-group-item list-group-item-action">Mongoose (ORM)</a>
+                                <a href="#" class="list-group-item list-group-item-action">MySQL (SQL database)</a>
+                            </div> 
                         </div>
                         <br />
                         <div class="list-group">
-                            <a href="#" class="list-group-item list-group-item-action active">Others</a>
-                            <a href="#" class="list-group-item list-group-item-action">NPM (Node Package Manager)</a>
-                            <a href="#" class="list-group-item list-group-item-action">GIT (Version Control)</a>
-                            <a href="#" class="list-group-item list-group-item-action">Github</a>
-
+                            <a href="#others" data-toggle="collapse"  class="list-group-item list-group-item-action active">Others <i class="glyphicon glyphicon-chevron-right float-right"></i></a>
+                            <div id="others" class="collapse">
+                                <a href="#" class="list-group-item list-group-item-action">NPM (Node Package Manager)</a>
+                                <a href="#" class="list-group-item list-group-item-action">GIT (Version Control)</a>
+                                <a href="#" class="list-group-item list-group-item-action">Github</a>
+                            </div>
                         </div>
                         <br />
                     </div>
